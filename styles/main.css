@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+:root {
+	/* Colors?*/
+	--dark-jungle-green: #071e22ff;
+	--myrtle-green: #1d7874ff;
+	--wintergreen-dream: #679289ff;
+	--peach-crayola: #f4c095ff;
+	--red-pigment: #ee2e31ff;
+}
+
+* {
+	font-family: "Oswald", sans-serif;
+}
+
+.header-navbar {
+	background-color: var(--peach-crayola);
+	color: var(--red-pigment);
+	padding: 0.3%;
+}
+
+.content {
+	background-color: var(--myrtle-green);
+}
