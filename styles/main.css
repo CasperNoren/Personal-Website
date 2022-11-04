@@ -24,5 +24,21 @@
 }
 
 .content {
+	margin-top: 1%;
 	background-color: var(--main-color);
+	height: 100%;
+}
+
+.profile-text {
+	font-size: 2em;
+}
+
+.profile-description {
+	font-size: 1.5em;
+}
+
+@media (min-width: 576px) {
+	.profile-text {
+		font-size: 3em;
+	}
 }
