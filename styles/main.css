@@ -19,6 +19,10 @@
 	padding: 0.3%;
 }
 
+.header-navbar a {
+	color: var(--red-pigment);
+}
+
 .content {
 	background-color: var(--myrtle-green);
 }
