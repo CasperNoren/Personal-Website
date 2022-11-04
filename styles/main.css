@@ -31,10 +31,12 @@
 
 .profile-text {
 	font-size: 2em;
+	margin: 1%;
 }
 
 .profile-description {
 	font-size: 1.5em;
+	margin: 1%;
 }
 
 @media (min-width: 576px) {
