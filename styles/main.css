@@ -2,11 +2,11 @@
 
 :root {
 	/* Colors?*/
-	--dark-jungle-green: #071e22ff;
-	--myrtle-green: #1d7874ff;
-	--wintergreen-dream: #679289ff;
-	--peach-crayola: #f4c095ff;
-	--red-pigment: #ee2e31ff;
+	--dark-accent-color: #071e22ff;
+	--main-color: #1d7874ff;
+	--main-color-light: #679289ff;
+	--main-accent-color: #f4c095ff;
+	--secondary-accent-color: #ee2e31ff;
 }
 
 * {
@@ -14,15 +14,15 @@
 }
 
 .header-navbar {
-	background-color: var(--peach-crayola);
-	color: var(--red-pigment);
+	background-color: var(--main-accent-color);
+	color: var(--secondary-accent-color);
 	padding: 0.3%;
 }
 
 .header-navbar a {
-	color: var(--red-pigment);
+	color: var(--secondary-accent-color);
 }
 
 .content {
-	background-color: var(--myrtle-green);
+	background-color: var(--main-color);
 }
